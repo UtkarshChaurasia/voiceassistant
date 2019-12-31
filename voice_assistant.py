@@ -157,16 +157,6 @@ if __name__ == "__main__":
             speak("I have been created by Utkarsh Chaurasia.")
             
 
-        elif 'tell me a joke' in query or 'zen tell me a joke' in query:
-            print("Virat Kohli is the best captain")
-            speak("Virat Kohli is the best captain")
-
-
-        elif 'tell me another joke' in query or 'zen tell me another joke' in query:
-            print("Mani is intelligent")
-            speak("Mani is intelligent")
-
-
         elif 'open youtube' in query:
             webbrowser.open("youtube.com")
 
